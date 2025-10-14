@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>Cart</h2>
+  <div id="message" class="message" style="display:none;"></div>
+  <div id="cart"></div>
+  <p id="total"></p>
+  <button id="checkoutBtn">Checkout</button>
+  <a id="shopLink" href="#">Back to Shop</a>
+
+  <script src="{{ url_for('static', filename='cart.js') }}"></script>
+</body>
+</html>
