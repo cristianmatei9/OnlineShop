@@ -1,20 +1,18 @@
-/* Reset & font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: #1E3A5F; /* dark blue */
+  background: #1E3A5F; 
   color: #FFFFFF;
 }
 
-/* Form styling */
 form {
   display: flex;
   flex-direction: column;
   max-width: 350px;
   margin: 20px auto;
   padding: 20px;
-  background: #2C4A7D; /* card background */
+  background: #2C4A7D; 
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
@@ -28,7 +26,7 @@ input, button {
 }
 
 input {
-  background: #ffffff33; /* transparent white */
+  background: #ffffff33; 
   color: #fff;
   padding-left: 10px;
 }
@@ -38,17 +36,16 @@ input::placeholder {
 }
 
 button {
-  background-color: #00BFA6; /* teal */
+  background-color: #00BFA6; 
   color: #fff;
   font-weight: bold;
   transition: 0.3s;
 }
 
 button:hover {
-  background-color: #008E7E; /* darker teal */
+  background-color: #008E7E; 
 }
 
-/* Cards for shop & cart */
 #products div, #cart div {
   margin: 10px auto;
   padding: 15px;
@@ -59,7 +56,7 @@ button:hover {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* Links */
+
 a {
   color: #00BFA6;
   text-decoration: none;
@@ -69,14 +66,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Headers */
 h2 {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-/* Messages */
 .message {
   max-width: 500px;
   margin: 10px auto;
@@ -86,18 +81,16 @@ h2 {
   text-align: center;
 }
 
-/* Center buttons and links for cart/shop pages */
 #cartLink,
 #checkoutBtn,
 #shopLink {
-  display: block;        /* ca margin auto să funcționeze */
-  margin: 15px auto;     /* centru orizontal + spațiu de sus/jos */
+  display: block;        
+  margin: 15px auto;     
   text-align: center;
-  width: fit-content;    /* butonul/link-ul să ocupe doar cât e nevoie */
+  width: fit-content;    
 }
 
 
-/* Center "New to our site?" and Register link on login page */
 form + p,
 form + p + a {
   text-align: center;
