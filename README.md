@@ -1,4 +1,4 @@
-Flask Online Shop Web App
+#Flask Online Shop Web App
 A full-stack online store application built with Flask and SQLite. 
 This project demonstrates a clean separation of concerns using a Service-Repository pattern, focusing on secure user authentication and efficient state management for the shopping cart.
 
