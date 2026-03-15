@@ -24,7 +24,6 @@ A full-stack online store application built with **Flask** and **SQLite**. This 
 ---
 
 ### 📂 Project Structure
-*Based on the repository's modular design:*
 
 * **`app.py`**: Application entry point and configuration.
 * **`models.py`**: Database schemas (User, Product, Order).
