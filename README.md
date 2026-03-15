@@ -31,5 +31,5 @@ A full-stack online store application built with **Flask** and **SQLite**. This 
 * **`repository.py`**: Direct database interactions and queries.
 * **`service.py`**: Core business logic and use cases.
 * **`validators.py`**: Custom logic for data sanitization and validation.
-* **`templates/`**: Dynamic HTML views (Jinja2).
+* **`templates/`**: Dynamic HTML.
 * **`static/`**: Assets including CSS and UI components.
